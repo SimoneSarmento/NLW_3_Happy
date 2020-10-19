@@ -1,5 +1,5 @@
 #page-landing {
-  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
 
   text-align: center;
   min-height: 100vh;
@@ -19,21 +19,6 @@ h1,
   height: 16vh;
 }
 
-#logo {
-  animation-delay: 50ms;
-}
-location {
-  animation-delay: 100ms;
-}
-main h1 {
-  animation-delay: 150ms;
-  font-size: clamp(4rem, 8vw, 8.4rem);
-}
-
-.visit p {
-  animation-delay: 200ms;
-}
-
 .visit a {
   width: 8rem;
   height: 8rem;
@@ -49,11 +34,30 @@ main h1 {
   margin: auto;
 
   transition: background 200ms;
+  
   animation-delay: 250ms;
 }
+
 .visit a:hover {
   background: #96feff;
 }
+
+
+#logo {
+  animation-delay: 50ms;
+}
+location {
+  animation-delay: 100ms;
+}
+main h1 {
+  animation-delay: 150ms;
+  font-size: clamp(4rem, 8vw, 8.4rem);
+}
+
+.visit p {
+  animation-delay: 200ms;
+}
+
 
 /* desktop version */
 
@@ -96,6 +100,7 @@ main h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
   }
 
   .visite p {

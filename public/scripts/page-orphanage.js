@@ -40,7 +40,7 @@ function selectImage(event){
         button.classList.remove(".active")
     }
 
-    // selecionar a image clicada
+    // selecionar a imagem clicada
     const image = button.children[0]
     const imageContainer = document.querySelector(".orphanage-details > img")
 
